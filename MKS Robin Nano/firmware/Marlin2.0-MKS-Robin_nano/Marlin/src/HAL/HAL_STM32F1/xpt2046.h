@@ -35,7 +35,7 @@
 
 #define XPT2046_SPI_CLOCK       SPI_CLOCK_DIV2
 
-#define XPT2046_Z1_TRESHHOLD    10
+#define XPT2046_Z1_TRESHHOLD    5 //10
 
 /* MKS Robin TFT v2.0 */
 #define XPT2046_X_CALIBRATION    12013

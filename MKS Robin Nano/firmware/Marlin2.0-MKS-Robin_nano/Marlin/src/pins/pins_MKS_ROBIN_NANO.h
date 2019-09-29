@@ -128,6 +128,6 @@
 #define FSMC_RS_PIN        PD11   // A0
 #define TOUCH_CS           PA7
 
-//#define MKS_ROBIN_TFT35     //Uncomment when using the robin tft35 display
+#define MKS_ROBIN_TFT35     //Uncomment when using the robin tft35 display
 
 #define SD_DETECT_PIN      PD12

@@ -12,7 +12,7 @@ uint8_t xpt2046_read_buttons() {
   uint16_t x, y;
 
   if (timeout > millis()) return 0;
-  timeout = millis() + 250;
+  timeout = millis() + 180; //250;
 
   spiConfig = SPISettings(XPT2046_SPI_CLOCK, MSBFIRST, SPI_MODE0);
   if (!getTouchPoint(&x, &y)) return 0;
