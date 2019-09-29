@@ -1,3 +1,16 @@
+# config for TwoTrees Sapphire Pro
+
+**this is an older version of marlin bugfix 2.0 - some stuff is old/bugged**
+I can't get the TouchPanel working on the current bugfix brach
+
+**with new bootloader that comes with FW 1.0.3 you have to rename the file to *Robin_nano35.bin* instead of *Robin_nano.bin***
+
+* changed to Sapphire geometry and my boundries
+* activated several options, including LCD bed leveling, parking, filament change
+* added my PID values for the 50 W heater (@ 200° C) and bed (@ 50° C)
+* babystepping
+* disables some libs that caused issues
+
 # Mks-Robin Nano
 Mks-Robin Nano Firmware version description
 
